@@ -1,0 +1,23 @@
+{
+  "name": "hero",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test_script.js",
+  "dependencies": {
+    "pg": "^6.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicmak/hero.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicmak/hero/issues"
+  },
+  "homepage": "https://github.com/nicmak/hero#readme"
+}
