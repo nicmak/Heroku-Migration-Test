@@ -24,7 +24,9 @@ function lookPeeps (input){
       if (err) {
         return console.error("error running query", err);
       }
-      console.log(result.rows); //output: 1
+      let row=result.rows[0]
+      console.log(`Found 1 person(s) by the name of ${input}:
+      - ${row.id}: ${row.first_name} ${row.last_name}, born '${row.birthdate.getFullYear()}-${row.birthdate.getMonth()}-${row.birthdate.getDate()}'`); //output: 1
       client.end();
     });
   });
